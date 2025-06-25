@@ -43,23 +43,23 @@
     ]
   },
   "packageFolders": {
-    "C:\\Users\\Thomaz\\.nuget\\packages\\": {},
+    "C:\\Users\\thomaz.bandeira\\.nuget\\packages\\": {},
     "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages": {}
   },
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\_git\\RenameFilesConsole\\RenameFiles.Adapter\\RenameFiles.Adapter.csproj",
+      "projectUniqueName": "C:\\_git\\thomazbandeira\\RenameFilesConsole\\RenameFiles.Adapter\\RenameFiles.Adapter.csproj",
       "projectName": "RenameFiles.Adapter",
-      "projectPath": "C:\\_git\\RenameFilesConsole\\RenameFiles.Adapter\\RenameFiles.Adapter.csproj",
-      "packagesPath": "C:\\Users\\Thomaz\\.nuget\\packages\\",
-      "outputPath": "C:\\_git\\RenameFilesConsole\\RenameFiles.Adapter\\obj\\",
+      "projectPath": "C:\\_git\\thomazbandeira\\RenameFilesConsole\\RenameFiles.Adapter\\RenameFiles.Adapter.csproj",
+      "packagesPath": "C:\\Users\\thomaz.bandeira\\.nuget\\packages\\",
+      "outputPath": "C:\\_git\\thomazbandeira\\RenameFilesConsole\\RenameFiles.Adapter\\obj\\",
       "projectStyle": "PackageReference",
       "fallbackFolders": [
         "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
       ],
       "configFilePaths": [
-        "C:\\Users\\Thomaz\\AppData\\Roaming\\NuGet\\NuGet.Config",
+        "C:\\Users\\thomaz.bandeira\\AppData\\Roaming\\NuGet\\NuGet.Config",
         "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
         "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
       ],
@@ -75,11 +75,11 @@
         "net9.0": {
           "targetAlias": "net9.0",
           "projectReferences": {
-            "C:\\_git\\RenameFilesConsole\\RenameFiles.Domain\\RenameFiles.Domain.csproj": {
-              "projectPath": "C:\\_git\\RenameFilesConsole\\RenameFiles.Domain\\RenameFiles.Domain.csproj"
+            "C:\\_git\\thomazbandeira\\RenameFilesConsole\\RenameFiles.Domain\\RenameFiles.Domain.csproj": {
+              "projectPath": "C:\\_git\\thomazbandeira\\RenameFilesConsole\\RenameFiles.Domain\\RenameFiles.Domain.csproj"
             },
-            "C:\\_git\\RenameFilesConsole\\RenameFiles.Util\\RenameFiles.Util.csproj": {
-              "projectPath": "C:\\_git\\RenameFilesConsole\\RenameFiles.Util\\RenameFiles.Util.csproj"
+            "C:\\_git\\thomazbandeira\\RenameFilesConsole\\RenameFiles.Util\\RenameFiles.Util.csproj": {
+              "projectPath": "C:\\_git\\thomazbandeira\\RenameFilesConsole\\RenameFiles.Util\\RenameFiles.Util.csproj"
             }
           }
         }

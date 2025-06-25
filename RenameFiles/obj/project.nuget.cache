@@ -1,12 +1,12 @@
 {
   "version": 2,
-  "dgSpecHash": "qt2L3R0dj70=",
+  "dgSpecHash": "72K7/xRvYsA=",
   "success": true,
-  "projectFilePath": "C:\\_git\\RenameFilesConsole\\RenameFiles\\RenameFilesConsole.csproj",
+  "projectFilePath": "C:\\_git\\thomazbandeira\\RenameFilesConsole\\RenameFiles\\RenameFilesConsole.csproj",
   "expectedPackageFiles": [
-    "C:\\Users\\Thomaz\\.nuget\\packages\\microsoft.dotnet.ilcompiler\\9.0.6\\microsoft.dotnet.ilcompiler.9.0.6.nupkg.sha512",
-    "C:\\Users\\Thomaz\\.nuget\\packages\\microsoft.net.illink.tasks\\9.0.6\\microsoft.net.illink.tasks.9.0.6.nupkg.sha512",
-    "C:\\Users\\Thomaz\\.nuget\\packages\\runtime.win-x64.microsoft.dotnet.ilcompiler\\9.0.6\\runtime.win-x64.microsoft.dotnet.ilcompiler.9.0.6.nupkg.sha512"
+    "C:\\Users\\thomaz.bandeira\\.nuget\\packages\\microsoft.dotnet.ilcompiler\\9.0.6\\microsoft.dotnet.ilcompiler.9.0.6.nupkg.sha512",
+    "C:\\Users\\thomaz.bandeira\\.nuget\\packages\\microsoft.net.illink.tasks\\9.0.6\\microsoft.net.illink.tasks.9.0.6.nupkg.sha512",
+    "C:\\Users\\thomaz.bandeira\\.nuget\\packages\\runtime.win-x64.microsoft.dotnet.ilcompiler\\9.0.6\\runtime.win-x64.microsoft.dotnet.ilcompiler.9.0.6.nupkg.sha512"
   ],
   "logs": []
 }
