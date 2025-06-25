@@ -95,6 +95,7 @@ namespace RenameFiles.Command
             }
             string[] pathComposition = args[0].Split('$');
             string path = pathComposition[0];
+            Console.Title = string.Format("RenameFilesConsole in {0}", path);
             string mode = (args[1] ?? "").ToLowerInvariant().Trim();
             string order = (args[2] ?? "").ToLowerInvariant().Trim();
             string realRename = "";
@@ -159,7 +160,7 @@ namespace RenameFiles.Command
                         directoryInfo.Create();
                     }
 
-                    fileInfo.MoveTo(Path.Combine(fileInfo.DirectoryName, "renamed", file.NewName));
+                    fileInfo.MoveTo(Path.Combine(fileInfo.DirectoryName, "renamed", file.NewName), false);
                 }
             }
         }

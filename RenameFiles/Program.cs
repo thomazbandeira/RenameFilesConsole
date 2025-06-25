@@ -11,9 +11,11 @@ namespace RenameFiles
         /// <param name="args">An array of command-line arguments passed to the application.</param>
         static void Main(string[] args)
         {
+            Console.Title = "RenameFilesConsole Initialize...";
             PrintUsage();
             var processor = new CommandProcessor(new FileSystemProvider());
             processor.Process(args);
+            Environment.Exit(0);
         }
         private static void PrintUsage()
         {
