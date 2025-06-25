@@ -25,7 +25,6 @@ namespace RenameFiles.Util.String
             var ext = fileInfo.Extension;//dotIdx > 0 ? name.Substring(dotIdx) : "";
             if (!Regex.IsMatch(baseName, @"(\d+\.\d+)$"))
                 baseName = Regex.Replace(baseName, @"\s?\d+$", "");
-            var digits = baseName.Reverse().TakeWhile(char.IsDigit).Count();
             return new Tuple<string, string>(baseName.RemoveTrailingNumberInParentheses(), ext);
 
         }
