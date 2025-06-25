@@ -1,0 +1,141 @@
+{
+  "version": 3,
+  "targets": {
+    "net9.0": {
+      "RenameFiles.Adapter/1.0.0": {
+        "type": "project",
+        "framework": ".NETCoreApp,Version=v9.0",
+        "dependencies": {
+          "RenameFiles.Domain": "1.0.0",
+          "RenameFiles.Util": "1.0.0"
+        },
+        "compile": {
+          "bin/placeholder/RenameFiles.Adapter.dll": {}
+        },
+        "runtime": {
+          "bin/placeholder/RenameFiles.Adapter.dll": {}
+        }
+      },
+      "RenameFiles.Domain/1.0.0": {
+        "type": "project",
+        "framework": ".NETCoreApp,Version=v9.0",
+        "compile": {
+          "bin/placeholder/RenameFiles.Domain.dll": {}
+        },
+        "runtime": {
+          "bin/placeholder/RenameFiles.Domain.dll": {}
+        }
+      },
+      "RenameFiles.Util/1.0.0": {
+        "type": "project",
+        "framework": ".NETCoreApp,Version=v9.0",
+        "compile": {
+          "bin/placeholder/RenameFiles.Util.dll": {}
+        },
+        "runtime": {
+          "bin/placeholder/RenameFiles.Util.dll": {}
+        }
+      }
+    }
+  },
+  "libraries": {
+    "RenameFiles.Adapter/1.0.0": {
+      "type": "project",
+      "path": "../RenameFiles.Adapter/RenameFiles.Adapter.csproj",
+      "msbuildProject": "../RenameFiles.Adapter/RenameFiles.Adapter.csproj"
+    },
+    "RenameFiles.Domain/1.0.0": {
+      "type": "project",
+      "path": "../RenameFiles.Domain/RenameFiles.Domain.csproj",
+      "msbuildProject": "../RenameFiles.Domain/RenameFiles.Domain.csproj"
+    },
+    "RenameFiles.Util/1.0.0": {
+      "type": "project",
+      "path": "../RenameFiles.Util/RenameFiles.Util.csproj",
+      "msbuildProject": "../RenameFiles.Util/RenameFiles.Util.csproj"
+    }
+  },
+  "projectFileDependencyGroups": {
+    "net9.0": [
+      "RenameFiles.Adapter >= 1.0.0",
+      "RenameFiles.Domain >= 1.0.0"
+    ]
+  },
+  "packageFolders": {
+    "C:\\Users\\Thomaz\\.nuget\\packages\\": {},
+    "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages": {}
+  },
+  "project": {
+    "version": "1.0.0",
+    "restore": {
+      "projectUniqueName": "C:\\_git\\RenameFilesConsole\\RenameFiles.Command\\RenameFiles.Command.csproj",
+      "projectName": "RenameFiles.Command",
+      "projectPath": "C:\\_git\\RenameFilesConsole\\RenameFiles.Command\\RenameFiles.Command.csproj",
+      "packagesPath": "C:\\Users\\Thomaz\\.nuget\\packages\\",
+      "outputPath": "C:\\_git\\RenameFilesConsole\\RenameFiles.Command\\obj\\",
+      "projectStyle": "PackageReference",
+      "fallbackFolders": [
+        "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
+      ],
+      "configFilePaths": [
+        "C:\\Users\\Thomaz\\AppData\\Roaming\\NuGet\\NuGet.Config",
+        "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
+        "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+      ],
+      "originalTargetFrameworks": [
+        "net9.0"
+      ],
+      "sources": {
+        "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+        "C:\\Program Files\\dotnet\\library-packs": {},
+        "https://api.nuget.org/v3/index.json": {}
+      },
+      "frameworks": {
+        "net9.0": {
+          "targetAlias": "net9.0",
+          "projectReferences": {
+            "C:\\_git\\RenameFilesConsole\\RenameFiles.Adapter\\RenameFiles.Adapter.csproj": {
+              "projectPath": "C:\\_git\\RenameFilesConsole\\RenameFiles.Adapter\\RenameFiles.Adapter.csproj"
+            },
+            "C:\\_git\\RenameFilesConsole\\RenameFiles.Domain\\RenameFiles.Domain.csproj": {
+              "projectPath": "C:\\_git\\RenameFilesConsole\\RenameFiles.Domain\\RenameFiles.Domain.csproj"
+            }
+          }
+        }
+      },
+      "warningProperties": {
+        "warnAsError": [
+          "NU1605"
+        ]
+      },
+      "restoreAuditProperties": {
+        "enableAudit": "true",
+        "auditLevel": "low",
+        "auditMode": "direct"
+      },
+      "SdkAnalysisLevel": "9.0.300"
+    },
+    "frameworks": {
+      "net9.0": {
+        "targetAlias": "net9.0",
+        "imports": [
+          "net461",
+          "net462",
+          "net47",
+          "net471",
+          "net472",
+          "net48",
+          "net481"
+        ],
+        "assetTargetFallback": true,
+        "warn": true,
+        "frameworkReferences": {
+          "Microsoft.NETCore.App": {
+            "privateAssets": "all"
+          }
+        },
+        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\9.0.301/PortableRuntimeIdentifierGraph.json"
+      }
+    }
+  }
+}
