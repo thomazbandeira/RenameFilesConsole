@@ -29,7 +29,7 @@ namespace RenameFiles.Adapter.Renamer
             {
                 Tuple<string,string> nameComposition = file.OriginalName.RemoveLastNumberGetNameAndExtension();
                 file.NewName =
-                    string.Format("{0}{1}{2}",
+                    string.Format("{0}_{1}{2}",
                     nameComposition.Item1,
                     file.CreatedDate.ToString("yyyyMMdd_HHmmss.fff"), nameComposition.Item2);
             }

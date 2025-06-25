@@ -31,7 +31,7 @@ namespace RenameFiles.Adapter.Renamer
             foreach (var file in files)
             {
                 Tuple<string,string> nameComposition = file.OriginalName.RemoveLastNumberGetNameAndExtension();
-                file.NewName = string.Format("{0}{1}{2}", nameComposition.Item1, (i++).ToString().PadLeft(5, '0'), nameComposition.Item2);
+                file.NewName = string.Format("{0}_{1}{2}", nameComposition.Item1, (i++).ToString().PadLeft(5, '0'), nameComposition.Item2);
             }
         }
     }

@@ -1,4 +1,6 @@
-﻿namespace RenameFiles.Util.String
+﻿using System.Text.RegularExpressions;
+
+namespace RenameFiles.Util.String
 {
     public static class NameFileExtensions
     {
@@ -16,12 +18,31 @@
         /// </item> </list></returns>
         public static Tuple<string, string> RemoveLastNumberGetNameAndExtension(this string name)
         {
+            FileInfo fileInfo = new FileInfo(name);
+           
             int dotIdx = name.LastIndexOf('.');
             var baseName = dotIdx > 0 ? name.Substring(0, dotIdx) : name;
-            var ext = dotIdx > 0 ? name.Substring(dotIdx) : "";
+            var ext = fileInfo.Extension;//dotIdx > 0 ? name.Substring(dotIdx) : "";
             var digits = baseName.Reverse().TakeWhile(char.IsDigit).Count();
-            return new Tuple<string, string>(baseName.Substring(0, baseName.Length - digits), digits > 0 ? ext : "");
+            return new Tuple<string, string>(baseName.Substring(0, baseName.Length - digits).RemoveTrailingNumberInParentheses(), ext);
 
+        }
+
+       /// <summary>
+       /// Removes a trailing numeric value enclosed in parentheses from the end of the specified string.
+       /// </summary>
+       /// <remarks>This method removes a numeric value enclosed in parentheses only if it appears at the
+       /// end of the string. For example, "Example (123)" becomes "Example", while "Example (abc)" remains
+       /// unchanged.</remarks>
+       /// <param name="input">The input string to process. Can be null or empty.</param>
+       /// <returns>A string with the trailing numeric value in parentheses removed, if present;  otherwise, the original string.</returns>
+        public static string RemoveTrailingNumberInParentheses(this string input)
+        {
+            if (string.IsNullOrEmpty(input))
+                return input;
+
+            // Remove "(número)" do final da string, apenas se for só número
+            return Regex.Replace(input, @"\s*\(\d+\)$", "");
         }
     }
 }
